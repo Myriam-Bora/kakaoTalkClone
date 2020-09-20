@@ -4,8 +4,6 @@
 
 ✔ 사용언어 / 도구
 
-      ▪ VanillaJS
-
       ▪ HTML
 
       ▪ CSS
