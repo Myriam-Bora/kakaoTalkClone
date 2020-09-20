@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to kakaoTalk Clone</h1>
+      <p class="welcome-header__text">
+        If you have a kakaoTalk Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form action="friends.html" method="get" class="login-form">
+      <input
+        name="username"
+        type="text"
+        class="login-form__email"
+        placeholder="Email or phone number"
+      />
+      <input
+        type="password"
+        name="userPassword"
+        class="login-form__password"
+        placeholder="Password"
+      />
+      <input type="submit" value="Log In" class="login-form__submit" />
+      <a href="#" class="find-account">Find kakao Account or Password</a>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
