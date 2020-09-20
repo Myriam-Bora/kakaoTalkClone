@@ -1,4 +1,4 @@
-# KaKaoTalk Clono
+# KaKaoTalk Clone
 
 ✔ 카카오톡 클론
 
