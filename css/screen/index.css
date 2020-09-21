@@ -1,0 +1,68 @@
+.fa-wifi,
+.fa-battery-half,
+.fa-bolt {
+  margin-left: 3px;
+}
+
+.welcome-header {
+  margin: 40px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.5;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+.login-form__email,
+.login-form__password {
+  border: none;
+  margin-top: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+  opacity: 0.8;
+  padding: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--yellow);
+}
+
+/* submit이 아닌 경우에만 작동 */
+input:not([type="submit"]) {
+  transition: all 0.3s ease-in-out;
+}
+
+.login-form__submit {
+  margin: 20px 0px;
+  padding: 15px;
+  background-color: var(--yellow);
+  border-radius: 0.3rem;
+  border: 0px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.find-account {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  /* inherit: 상속받는다 */
+}
