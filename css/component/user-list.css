@@ -67,7 +67,7 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
-.channel {
+.user {
   display: flex;
   justify-content: space-between;
   margin: 10px 10px 0px 10px;
@@ -76,33 +76,59 @@
   opacity: 0.5;
 }
 
-.channel-list {
+.user-list {
   margin: 0px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.channel-list__user {
+.user-list__user {
   display: flex;
   align-items: center;
 }
 
-.channel-list__image {
+.user-list__image {
   width: 55px;
   height: 55px;
   border-radius: 40%;
   overflow: hidden;
 }
 
-.channel-list__nickname {
+.user-list__nickname-message {
+  align-items: center;
+}
+
+.user-list__text {
+  opacity: 0.3;
+}
+
+.user-list__nickname {
   margin-left: 10px;
+  display: block;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.7);
 }
 
-.channel-list__text {
+.user-list__message {
+  margin-left: 10px;
+  display: block;
+  opacity: 0.4;
+}
+
+.user-list__time-alert {
+  position: relative;
+  display: block;
+  align-items: center;
+}
+
+.user-list__time {
   opacity: 0.2;
   margin: 0px 5px;
+  margin-bottom: 5px;
+}
+
+.user-list__alert {
+  margin-left: 15px;
 }

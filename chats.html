@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Friends</title>
+    <title>Chats</title>
   </head>
   <body>
     <!-- 상위 고정 상태창 -->
@@ -24,52 +24,40 @@
     </div>
     <!-- header -->
     <header class="friends-header">
-      <h1 class="friends-header__title">Friends</h1>
+      <h1 class="friends-header__title">Chats</h1>
       <div class="friends-header__icons">
         <i class="fas fa-search fa-lg friends-header__icon-search"></i>
+        <i class="far fa-comment-dots fa-lg"></i>
         <i class="fab fa-itunes-note fa-lg friends-header__icon-note"></i>
         <i class="fas fa-cog fa-lg friends-header__icon-cog"></i>
       </div>
     </header>
-    <!-- Display -->
-    <div class="names-display">
-      <span class="names-display__i">i</i
-      ></span>
-      <span class="names-display__title">Friends' Names Display</span>
-      <span class="names-display__right-icon"
-        ><i class="fas fa-chevron-right"></i
-      ></span>
+    <!-- user List -->
+    <div class="user-list">
+    <div class="user-list__user">
+      <img src="images/background1.jpg" class="user-list__image" />
+      <div class="user-list__nickname-message">
+        <span class="user-list__nickname">kakao Channel</span>
+        <span class="user-list__message"
+          >Please check My kakao Account Info</span
+        >
+      </div>
     </div>
-    <!-- friends List -->
-    <div class="friend-list">
-        <div class="friend-list__image"><img src="images/cat2.jpg" class="friend-list__image-cat" alt=""/></div>
-        <div class="friend-list__nickname">Myriam-Bora</div>
+    <div class="user-list__time-alert"> 
+        <div class="user-list__time">18:01</div>
+        <div class="alert user-list__alert">1</div>
     </div>
-    <!-- User -->
-    <div class="user">
-        <div class="user__title">Channel</div>
-        <div class="user__icon"><i class="fas fa-chevron-up"></i
-            ></div>
-        </div>
-        <!-- channel List -->
-     <div class="user-list">
-        <div class="user-list__user">
-            <img src="images/background1.jpg" class="user-list__image">
-            <span class="user-list__nickname">kakao Channel</span>
-        </div>
-        <div class="user-list__text">2<i class="fas fa-chevron-right"></i></div>
-    </div>
+   
     <!-- 하위 고정 네비게이션 -->
     <nav class="navigation-bar">
       <ul class="navigation-bar__icons">
         <li class="navigation-bar__btn">
-          <a href="#" class="navigation-bar__link">
-            <i class="fas fa-user-alt fa-lg"></i
-          ></a>
+          <a href="friends.html" class="navigation-bar__link">
+            <i class="far fa-user fa-lg"></i></a>
         </li>
         <li class="navigation-bar__btn">
-          <a href="chats.html" class="navigation-bar__link">
-            <i class="far fa-comment fa-lg"></i>
+          <a href="#" class="navigation-bar__link">
+            <i class="fas fa-comment fa-lg"></i></i>
             <span class="navigation-bar__number alert">1</span></a
           >
         </li>

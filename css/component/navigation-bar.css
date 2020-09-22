@@ -17,15 +17,6 @@
 }
 
 .navigation-bar__number {
-  font-size: 15px;
-  display: flex;
-  color: white;
-  font-weight: 600;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  justify-content: center;
-  background-color: tomato;
   position: absolute;
   left: 10px;
   bottom: 14px;
