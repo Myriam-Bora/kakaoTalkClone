@@ -25,9 +25,9 @@
 
 .navigation-bar__circle {
   position: absolute;
+  background-color: tomato;
+  border-radius: 5px;
   width: 10px;
   height: 10px;
-  background-color: tomato;
   top: 10px;
-  border-radius: 5px;
 }

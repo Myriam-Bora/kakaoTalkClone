@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/chat1.svg"
+      sizes="16x16 32x32 64x64"
+    />
+    <title>Find</title>
+  </head>
+  <body>
+    <!-- 상위 고정 상태창 -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <!-- header -->
+    <header class="friends-header">
+      <h1 class="friends-header__title">Find</h1>
+      <div class="friends-header__icons">
+        <i class="fas fa-search fa-lg friends-header__icon-search"></i>
+        <i class="fas fa-cog fa-lg friends-header__icon-cog"></i>
+        <div class="header__circle"></div>
+      </div>
+    </header>
+    <!-- main -->
+    <main class="main-find">
+      <!-- 윗쪽 아이콘 -->
+      <div class="main-find__sub">
+        <div class="main-find__qr main-find__content">
+          <i class="fas fa-qrcode fa-2x main-find__icon-qr"></i>
+          <span class="matin-find__name-qr">QR Code</span>
+        </div>
+        <div class="main-find__contact main-find__content">
+          <i class="far fa-address-book fa-2x main-find__icon-contact"></i>
+          <span class="main-find__icon-name-contact">Add by Contacts</span>
+        </div>
+        <div class="main-find__id main-find__content">
+          <i class="fas fa-fingerprint fa-2x main-find__icon-id"></i>
+          <span class="main-find__icon-name-id">Add by ID</span>
+        </div>
+        <div class="main-find__invite main-find__content">
+          <i class="far fa-envelope fa-2x main-find__icon-invite"></i>
+          <span class="main-find__icon-name-invite">Invite</span>
+        </div>
+      </div>
+      <!-- Recommended -->
+      <div class="recommended">
+        <h4 class="sub-title">Recommended Friends</h4>
+        <h3 class="recommended__sub-title">You have no recommended friends</h3>
+      </div>
+      <!-- Open Chat -->
+      <div class="open-chat">
+        <div class="open-chat__title">
+          <div class="open-chat__open-chat">Open Chat</div>
+          <div class="open-chat__go-home">
+            Go to Openchat Home<i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="open-chat__list">
+          <div class="open-chat__list-information">
+            <div class="open-chat__list-information-title">CAT</div>
+            <div class="open-chat__list-information-hash">
+              #집사 #냥이 #고양이식빵
+            </div>
+            <div class="open-chat__list-information-members">
+              <img
+                src="images/cat2.jpg"
+                alt=""
+                class="open-chat__list-information-members-master"
+              />
+              <div class="open-chat__list-information-members-personnel">
+                802 members
+              </div>
+              <div
+                class="open-chat__list-information-members-dividingLine"
+              ></div>
+              <div class="open-chat__list-information-members-state">
+                Active
+              </div>
+            </div>
+          </div>
+          <div class="open-chat__list-photo">
+            <img src="images/background1.jpg" />
+            <div class="open-chat__list-heart">❤ 326</div>
+          </div>
+        </div>
+      </div>
+      <!--Open chat end-->
+    </main>
+    <!-- 하위 고정 네비게이션 -->
+    <nav class="navigation-bar">
+      <ul class="navigation-bar__icons">
+        <li class="navigation-bar__btn">
+          <a href="friends.html" class="navigation-bar__link">
+            <i class="far fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="navigation-bar__btn">
+          <a href="chats.html" class="navigation-bar__link">
+            <i class="far fa-comment fa-lg"></i>
+            <span class="navigation-bar__number alert">1</span></a
+          >
+        </li>
+        <li class="navigation-bar__btn">
+          <a href="find.html" class="navigation-bar__link">
+            <i class="fas fa-search fa-lg"></i
+          ></a>
+        </li>
+        <li class="navigation-bar__btn">
+          <a href="more.html" class="navigation-bar__link">
+            <i class="fas fa-ellipsis-h fa-lg"></i
+          ></a>
+          <span class="navigation-bar__circle"></span>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
