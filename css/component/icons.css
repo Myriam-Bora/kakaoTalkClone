@@ -1,0 +1,11 @@
+.icons__sub {
+  margin: 40px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons__content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

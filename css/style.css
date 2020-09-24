@@ -1,14 +1,18 @@
 @import "reset.css";
 
-/* screen */
-@import "screen/index.css";
-@import "screen/find.css";
-
 /* component */
 @import "component/status-bar.css";
 @import "component/navigation-bar.css";
-@import "component/user-list.css";
+@import "component/profile.css";
 @import "component/alert.css";
+@import "component/icons.css";
+@import "component/hidden.css";
+
+/* screen */
+@import "screen/index.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/more.css";
 
 @import "variables.css";
 

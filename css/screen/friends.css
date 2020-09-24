@@ -41,32 +41,6 @@
   opacity: 0.2;
 }
 
-.friend-list {
-  margin: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.friend-list__image {
-  width: 60px;
-  height: 60px;
-  border-radius: 40%;
-  overflow: hidden;
-  /* 넘치는 부분은 가리기 */
-}
-
-.friend-list__image-cat {
-  width: 100%;
-  height: 100%;
-}
-
-.friend-list__nickname {
-  margin-left: 10px;
-  font-weight: 700;
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.7);
-}
-
 .user {
   display: flex;
   justify-content: space-between;

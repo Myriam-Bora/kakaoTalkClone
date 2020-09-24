@@ -1,0 +1,25 @@
+.profile {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.profile__image {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  overflow: hidden;
+  /* 넘치는 부분은 가리기 */
+}
+
+.profile__image-cat {
+  width: 100%;
+  height: 100%;
+}
+
+.profile__nickname {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
