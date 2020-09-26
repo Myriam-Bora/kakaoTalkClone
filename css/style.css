@@ -7,12 +7,14 @@
 @import "component/alert.css";
 @import "component/icons.css";
 @import "component/hidden.css";
+@import "component/header.css";
 
 /* screen */
 @import "screen/index.css";
 @import "screen/friends.css";
 @import "screen/find.css";
 @import "screen/more.css";
+@import "screen/chat.css";
 
 @import "variables.css";
 
