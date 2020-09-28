@@ -10,10 +10,14 @@
   background-color: #a0b9c9;
   width: 100%;
   margin: 0px 5px;
-  padding: 0px 5px;
+  padding: 8px 5px;
+
   top: 0;
   box-sizing: border-box;
   position: fixed;
+  height: 50px;
+  align-items: flex-start;
+  z-index: 2;
 }
 
 #chat-body .status-bar:first-child {
@@ -30,12 +34,14 @@
   width: 100%;
   margin: 0px auto;
   padding: 0px 10px;
-  height: 70px;
-  top: 20px;
+  height: 50px;
+  top: 40px;
+  z-index: 1;
+
   box-sizing: border-box;
 }
 
-#chat-body .fa-chevron-left {
+#chat-body .header__icon-left {
   width: 33%;
   display: flex;
   justify-content: flex-start;
@@ -47,11 +53,20 @@
   justify-content: flex-end;
 }
 
+#chat-body .friends-header__title {
+  width: 33%;
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+  white-space: nowrap; /* 텍스트 줄바꿈 금지 */
+}
+
 .main {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 0;
 }
 
 .main-chat__date {
@@ -61,4 +76,58 @@
   background-color: silver;
   padding: 8px;
   border-radius: 16px;
+}
+
+.main-chat__sender {
+  width: 100%;
+  margin: 10px;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  align-items: unset;
+}
+
+.main-chat__sender-image {
+  width: 45px;
+  height: 45px;
+}
+.main-chat__sender-nickname {
+  font-size: 15px;
+}
+
+.user-list__message-time {
+  display: flex;
+  align-items: flex-end;
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+.main-chat__sender-message {
+  background-color: white;
+  opacity: unset;
+  border-radius: 10px;
+  padding: 10px;
+  border-top-left-radius: 0;
+}
+
+.main-chat__sender-image {
+  align-items: flex-start;
+}
+
+.main-chat__sender-time {
+  opacity: 0.6;
+}
+
+.main-chat__receiver {
+  flex-direction: row-reverse;
+}
+
+.main-chat__receiver-message-time {
+  flex-direction: row-reverse;
+}
+
+.main-chat__receiver-message {
+  border-top-right-radius: 0;
+  border-top-left-radius: 10px;
+  margin: 0;
+  background-color: #f7e100;
 }
