@@ -34,7 +34,7 @@
   width: 100%;
   margin: 0px auto;
   padding: 0px 10px;
-  height: 50px;
+  height: 70px;
   top: 40px;
   z-index: 1;
 
@@ -56,7 +56,7 @@
 #chat-body .friends-header__title {
   width: 33%;
   display: flex;
-  text-align: center;
+  justify-content: center;
   box-sizing: border-box;
   white-space: nowrap; /* 텍스트 줄바꿈 금지 */
 }
@@ -76,6 +76,7 @@
   background-color: silver;
   padding: 8px;
   border-radius: 16px;
+  margin-top: 10px;
 }
 
 .main-chat__sender {
@@ -142,6 +143,7 @@
   align-items: center;
   background-color: white;
   box-sizing: border-box;
+  transition: all 0.5s;
 }
 
 .main-chat__input-plus {
@@ -153,6 +155,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  background-color: white;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-top-left-radius: 20px;
@@ -202,4 +205,35 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+/*focus-within : 포커스를 받았거나, 포커스를 받은 요소를 포함하고 있는가. 즉 자손도 포함  */
+.main-chat__input:focus-within .main-chat__input-plus,
+.main-chat__input:focus-within .main-chat__input-chatting-emoticon-send {
+  transition: all 0.5s;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.main-chat__input:focus-within .main-chat__input-chatting {
+  width: 100%;
+  transition: all 0.5s;
+  transform: translateX(-30px);
+}
+
+.main-chat__date,
+.main-chat__sender,
+.main-chat__receiver {
+  animation: chatAnimation 1s forwards;
+}
+
+@keyframes chatAnimation {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

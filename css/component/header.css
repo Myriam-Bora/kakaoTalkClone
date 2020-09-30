@@ -45,3 +45,17 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.friends-header__icons .friends-header__icon-cog:hover {
+  animation: cogAnimation 1s linear infinite;
+  /* linear : 속도 일정하게 */
+}
+
+@keyframes cogAnimation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

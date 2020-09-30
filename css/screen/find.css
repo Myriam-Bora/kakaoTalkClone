@@ -110,4 +110,21 @@
   color: white;
   bottom: 10px;
   right: 5px;
+  display: flex;
+}
+
+@keyframes heartBeat {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.heart {
+  will-change: transform;
+  /*will-change: 애니메이션 효과를 좀 더 유연하게 만들어 준다  */
+  animation: heartBeat 1s infinite;
+  margin-right: 5px;
 }

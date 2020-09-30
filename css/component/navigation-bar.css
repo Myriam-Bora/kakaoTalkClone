@@ -21,6 +21,7 @@
   position: absolute;
   left: 10px;
   bottom: 14px;
+  animation: alertAnimation 2s infinite;
 }
 
 .navigation-bar__circle {
@@ -30,4 +31,48 @@
   width: 10px;
   height: 10px;
   top: 10px;
+}
+
+@keyframes alertAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-6px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.navigation-bar__number .alert {
+  animation: alertAnimation 2s infinite linear;
+}
+
+@keyframes navigationIconsAnimation {
+  from {
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.navigation-bar__btn {
+  animation: navigationIconsAnimation 0.5s ease-in-out forwards;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.navigation-bar__btn:first-child {
+  animation-delay: 0.3s;
+}
+.navigation-bar__btn:nth-child(2) {
+  animation-delay: 0.7s;
+}
+.navigation-bar__btn:nth-child(3) {
+  animation-delay: 0.9s;
+}
+.navigation-bar__btn:last-child {
+  animation-delay: 1.2s;
 }
