@@ -14,26 +14,26 @@
 
 👨‍👩‍👧‍👦 Friends
  
-![Friends](kakaoTalkClone/screen-shot/friends.JPG)
+![Friends](screen-shot/friends.PNG)
 
 
   ✉ Chats
  
-![Chats](kakaoTalkClone/screen-shot/chats.JPG)
+![Chats](screen-shot/chats.PNG)
 
 
  📃 Chat
  
-![chat](kakaoTalkClone/screen-shot/chat.JPG)
+![chat](screen-shot/chat.PNG)
 
 
  🔍 Find 
  
-  ![find](kakaoTalkClone/screen-shot/find.JPG)
+![find](screen-shot/find.PNG)
   
   ⚙ More
   
-  ![more](kakaoTalkClone/screen-shot/more.JPG)
+![more](screen-shot/more.PNG)
   
  
 
