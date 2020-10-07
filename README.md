@@ -10,6 +10,35 @@
 
 ![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code)
 
+# Preview 
+
+👨‍👩‍👧‍👦 Friends
+ 
+![Friends](kakaoTalkClone/screen-shot/friends.JPG)
+
+
+  ✉ Chats
+ 
+![Chats](kakaoTalkClone/screen-shot/chats.JPG)
+
+
+ 📃 Chat
+ 
+![chat](kakaoTalkClone/screen-shot/chat.JPG)
+
+
+ 🔍 Find 
+ 
+  ![find](kakaoTalkClone/screen-shot/find.JPG)
+  
+  ⚙ More
+  
+  ![more](kakaoTalkClone/screen-shot/more.JPG)
+  
+ 
+
+
+
 # Try GitHub Pages
 
 https://myriam-bora.github.io/kakaoTalkClone/
