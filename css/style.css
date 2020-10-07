@@ -8,6 +8,7 @@
 @import "component/icons.css";
 @import "component/hidden.css";
 @import "component/header.css";
+@import "component/no-mobile.css";
 
 /* screen */
 @import "screen/index.css";
