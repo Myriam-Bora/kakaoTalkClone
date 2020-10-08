@@ -8,11 +8,11 @@
   text-align: right;
 }
 
-.friends-header__title {
+.friends-header__title-settings {
   text-align: center;
 }
 
-.main {
+.main-settings {
   margin: 50px 0px;
   display: flex;
   flex-direction: column;
