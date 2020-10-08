@@ -1,0 +1,61 @@
+.header__icon-left,
+.friends-header__title,
+.header__icon-right {
+  width: 33%;
+}
+
+.header__icon-right {
+  text-align: right;
+}
+
+.friends-header__title {
+  text-align: center;
+}
+
+.main {
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  opacity: 0.8;
+  width: 100%;
+  margin: 0px 10px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  opacity: 0.05;
+  margin: 10px 0px;
+}
+
+.list i {
+  margin: 20px;
+  width: 7%;
+}
+
+.list__title {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.list__sub-title {
+  width: 70%;
+  text-align: right;
+}
+
+.line-bold {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  opacity: 0.1;
+  margin: 10px 0px;
+}

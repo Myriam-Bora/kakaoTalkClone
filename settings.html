@@ -9,7 +9,7 @@
       href="images/chat1.svg"
       sizes="16x16 32x32 64x64"
     />
-    <title>Chats</title>
+    <title>Settings</title>
   </head>
   <body>
     <!-- 상위 고정 상태창 -->
@@ -29,33 +29,64 @@
     </div>
     <!-- header -->
     <header class="friends-header">
-      <h1 class="friends-header__title">Chats</h1>
-      <div class="friends-header__icons">
+      <a href="more.html" class="header__icon-left">
+        <i class="fas fa-chevron-left"></i
+      ></a>
+      <h1 class="friends-header__title">Settings</h1>
+      <div class="friends-header__icons header__icon-right">
         <i class="fas fa-search fa-lg friends-header__icon-search"></i>
-        <i class="far fa-comment-dots fa-lg"></i>
-        <i class="fab fa-itunes-note fa-lg friends-header__icon-note"></i>
-        <a href="settings.html">
-          <i class="fas fa-cog fa-lg friends-header__icon-cog"></i
-        ></a>
-        <div class="header__circle"></div>
       </div>
     </header>
-    <!-- user List -->
-    <a href="chat.html" class="user-list">
-      <div class="user-list__user">
-        <img src="images/background1.jpg" class="user-list__image" />
-        <div class="user-list__nickname-message">
-          <span class="user-list__nickname">kakao Channel</span>
-          <span class="user-list__message"
-            >Please check My kakao Account Info</span
-          >
-        </div>
+    <!-- main -->
+    <main class="main">
+      <div class="list">
+        <i class="fas fa-volume-up list__icon fa-lg"></i>
+        <div class="list__title">Notice</div>
       </div>
-      <div class="user-list__time-alert">
-        <div class="user-list__time">18:01</div>
-        <div class="alert user-list__alert">1</div>
+      <div class="line"></div>
+      <div class="list">
+        <i class="fas fa-flask fa-lg"></i>
+        <div class="list__title">kakao Lab</div>
       </div>
-    </a>
+      <div class="line"></div>
+      <div class="list">
+        <i class="fas fa-code-branch fa-lg"></i>
+        <div class="list__title">Version</div>
+        <div class="list_sub-title">Latest Version</div>
+      </div>
+      <div class="line-bold"></div>
+      <div class="list">
+        <i class="fas fa-key fa-lg"></i>
+        <div class="list__title">Privacy</div>
+      </div>
+      <div class="line"></div>
+      <div class="list">
+        <i class="far fa-bell fa-lg"></i>
+        <div class="list__title">Notifications</div>
+      </div>
+      <div class="line"></div>
+      <div class="list">
+        <i class="fas fa-user-friends fa-lg"></i>
+        <div class="list__title">Friends</div>
+      </div>
+      <div class="line"></div>
+      <div class="list">
+        <i class="fas fa-comment-dots fa-lg"></i>
+        <div class="list__title">Chats</div>
+      </div>
+      <div class="line"></div>
+      <div class="list">
+        <i class="fas fa-tv fa-lg"></i>
+        <div class="list__title">Display</div>
+      </div>
+      <div class="line"></div>
+      <div class="list">
+        <i class="fas fa-paint-roller fa-lg"></i>
+        <div class="list__title">Themes</div>
+        <div class="list_sub-title">Default theme</div>
+      </div>
+      <div class="line"></div>
+    </main>
 
     <!-- 하위 고정 네비게이션 -->
     <nav class="navigation-bar">
@@ -67,7 +98,7 @@
         </li>
         <li class="navigation-bar__btn">
           <a href="chats.html" class="navigation-bar__link">
-            <i class="fas fa-comment fa-lg"></i>
+            <i class="fa fa-comment fa-lg"></i>
             <span class="navigation-bar__number alert">1</span></a
           >
         </li>
