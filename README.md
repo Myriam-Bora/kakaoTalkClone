@@ -1,6 +1,6 @@
-# KaKaoTalk Clone
+# KaKaoTalk Clone 💬
 
-    ✔ 카카오톡 클론
+카카오톡 클론
     
 
 ## 사용언어 / 도구
@@ -14,44 +14,43 @@
 
 ## 주요기능
 
-    ✔ Media Query
+    ✅ Media Query
    
-    ✔ Index
+    ✅ Index
    
-   	✔ flex box 
+    ✅ flex box 
     
-    ✔ Pseudo selectors
+    ✅ Pseudo selectors
       
-    ✔ Animations
+    ✅ Animations
 
 ## Preview 
 
-  	
-  
+	✅ Index
   ![index](screen-shot/index.PNG)
 
 
-	 ▪ 👨‍👩‍👧‍👦 Friends
+	 👨‍👩‍👧‍👦 Friends
  
 ![Friends](screen-shot/friends.PNG)
 
 
-	▪   ✉ Chats
+	✉ Chats
  
 ![Chats](screen-shot/chats.PNG)
 
 
-  	▪  📃 Chat
+  	 📃 Chat
  
 ![chat](screen-shot/chat.PNG)
 
 
- 	▪ 🔍 Find 
+ 	🔍 Find 
  
 ![find](screen-shot/find.PNG)
 
   
-	▪  ⚙ More
+	⚙ More
   
 ![more](screen-shot/more.PNG)
   
@@ -59,6 +58,6 @@
 
 
 
-## Try GitHub Pages
+## Try GitHub Pages 👁‍🗨  
 
 https://myriam-bora.github.io/kakaoTalkClone/
