@@ -12,7 +12,7 @@
 ![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code)
 
 
-## 주요기능
+## 사용기술
 
     ✅ Media Query
    
