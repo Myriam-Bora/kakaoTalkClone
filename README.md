@@ -15,13 +15,7 @@
 ## 사용기술
 
     ✅ Media Query
-   
-    ✅ Index
-   
-    ✅ flex box 
     
-    ✅ Pseudo selectors
-      
     ✅ Animations
 
 ## Preview 
